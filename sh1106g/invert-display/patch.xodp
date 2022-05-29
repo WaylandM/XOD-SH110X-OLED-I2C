@@ -1,0 +1,60 @@
+{
+  "description": "Enable or disable display invert mode (white-on-black vs black-on-white).  This has an immediate effect on the display, no need to use the send-buffer-to-display node  -- buffer contents are not changed, rather a different pixel mode of the display hardware is used. When \n enabled, drawing BLACK (value 0) pixels will actually draw white,  WHITE (value 1) will draw black.",
+  "nodes": [
+    {
+      "id": "BJwdw5KUE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update. Trigger action.",
+      "id": "BkZ9P5F8E",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "If true, switch to invert mode (black-on-white), else normal mode (white-on-black). ",
+      "id": "Sk5RTCF84",
+      "label": "INV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "rkQ3wctI4",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "Bkslt8Aedc",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/input-sh1107-oled-i2c-device"
+    }
+  ]
+}
