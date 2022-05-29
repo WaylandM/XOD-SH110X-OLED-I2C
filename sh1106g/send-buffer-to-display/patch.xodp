@@ -1,5 +1,5 @@
 {
-  "description": "Push data currently in RAM to SSD1306 display. Drawing operations are not visible until this function is called. Call after each graphics command, or after a whole set of graphics commands, as best needed by one's own application.",
+  "description": "Push data currently in RAM to display. Drawing operations are not visible until this function is called. Call after each graphics command, or after a whole set of graphics commands, as best needed by one's own application.",
   "nodes": [
     {
       "id": "BkPGzdFI4",
