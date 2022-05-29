@@ -346,7 +346,7 @@
         "x": 3,
         "y": 0
       },
-      "type": "@/sh1107-oled-i2c-device"
+      "type": "@/sh1106g-oled-i2c-device"
     },
     {
       "boundLiterals": {

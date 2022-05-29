@@ -111,7 +111,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "An SH1107 OLED device.",
+      "description": "An SH1106G OLED device.",
       "id": "BJprUAedc",
       "label": "DEV",
       "position": {
@@ -119,7 +119,7 @@
         "x": 0,
         "y": 0
       },
-      "type": "@/input-sh1107-oled-i2c-device"
+      "type": "@/input-sh1106g-oled-i2c-device"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "description": "Create SH1307 OLED device.",
+  "description": "Create SH1306G OLED device.",
   "nodes": [
     {
       "boundLiterals": {
-        "__out__": "128"
+        "__out__": "64"
       },
       "description": "Display  height in pixels (default 64).",
       "id": "BJgxWIFUV",
@@ -53,7 +53,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "An SH1107 OLED device.",
+      "description": "An SH1106G OLED device.",
       "id": "ryH6tSt8N",
       "label": "DEV",
       "position": {
