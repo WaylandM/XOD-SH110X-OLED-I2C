@@ -6,7 +6,7 @@
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include <Adafruit_SH110X.h>
 
 node {
     meta {
@@ -22,14 +22,7 @@ node {
         auto width = getValue<input_WIDTH>(ctx);
         auto height = getValue<input_HEIGHT>(ctx);
         auto reset_pin = getValue<input_RESET_PIN>(ctx);
-        Type display = new (mem) Adafruit_SSD1306(width, height, wire, reset_pin);
-        
-        // Attempt to initialize display module; if attempt fails raise error
-        auto address = getValue<input_ADDRESS>(ctx);
-        if (!display->begin(SSD1306_SWITCHCAPVCC, address)) {
-            raiseError(ctx);
-            return;
-        }
+        Type display = new (mem) Adafruit_SH1107(width, height, wire, reset_pin);
         emitValue<output_DEV>(ctx, display);
     }
 }
