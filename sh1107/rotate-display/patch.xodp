@@ -1,4 +1,5 @@
 {
+  "description": "Rotate display.",
   "nodes": [
     {
       "description": "00h through to 03h corresponding to 4 cardinal rotations.",

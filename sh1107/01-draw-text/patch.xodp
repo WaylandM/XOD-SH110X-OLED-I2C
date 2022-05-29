@@ -1,0 +1,374 @@
+{
+  "description": "Four lines of text will be drawn.",
+  "links": [
+    {
+      "id": "Sk9jAZG-d5",
+      "input": {
+        "nodeId": "Hy-j0bM-_q",
+        "pinKey": "B11QT1qLN"
+      },
+      "output": {
+        "nodeId": "H1sCWGZuq",
+        "pinKey": "rylSGPt8E"
+      }
+    },
+    {
+      "id": "ryhsRbfZd9",
+      "input": {
+        "nodeId": "Hy_o0-M-u9",
+        "pinKey": "BJgYgRldc"
+      },
+      "output": {
+        "nodeId": "BkIoA-zbOq",
+        "pinKey": "HyvnPf3kQ"
+      }
+    },
+    {
+      "id": "SypoR-f-_9",
+      "input": {
+        "nodeId": "SJvoCWGZ_9",
+        "pinKey": "ByhMGRgd9"
+      },
+      "output": {
+        "nodeId": "Hy_o0-M-u9",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "rk0iRbfZO9",
+      "input": {
+        "nodeId": "rkrjC-GZ_5",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy_o0-M-u9",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "BJkgoC-M-Oq",
+      "input": {
+        "nodeId": "SJvoCWGZ_9",
+        "pinKey": "ryeJzAldc"
+      },
+      "output": {
+        "nodeId": "SJFi0-GW_q",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "HJelsA-GZdq",
+      "input": {
+        "nodeId": "H1sCWGZuq",
+        "pinKey": "r1H7MwK8E"
+      },
+      "output": {
+        "nodeId": "SJvoCWGZ_9",
+        "pinKey": "BkwvGRed9"
+      }
+    },
+    {
+      "id": "HJZgoAbMWOc",
+      "input": {
+        "nodeId": "H1sCWGZuq",
+        "pinKey": "ryQoSRe_9"
+      },
+      "output": {
+        "nodeId": "SJxj0-GZ_9",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJzgiC-fWdc",
+      "input": {
+        "nodeId": "Hy-j0bM-_q",
+        "pinKey": "BJprUAedc"
+      },
+      "output": {
+        "nodeId": "ByEj0WMWO5",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJ7xo0-G-_9",
+      "input": {
+        "nodeId": "H1mjAWGZ_q",
+        "pinKey": "SJsZqL0xdq"
+      },
+      "output": {
+        "nodeId": "HJMiCZGWdq",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Byb1l7zW_q",
+      "input": {
+        "nodeId": "Hk1lXfbdq",
+        "pinKey": "BJprUAedc"
+      },
+      "output": {
+        "nodeId": "BJxyxXMWuq",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJZOemzWd5",
+      "input": {
+        "nodeId": "HJ_lQGZuc",
+        "pinKey": "BJprUAedc"
+      },
+      "output": {
+        "nodeId": "rkg_x7MZu9",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sy2xmGWOq",
+      "input": {
+        "nodeId": "Hk1lXfbdq",
+        "pinKey": "B11QT1qLN"
+      },
+      "output": {
+        "nodeId": "Hy-j0bM-_q",
+        "pinKey": "r1DL6CFU4"
+      }
+    },
+    {
+      "id": "rJReQMb_9",
+      "input": {
+        "nodeId": "HJ_lQGZuc",
+        "pinKey": "B11QT1qLN"
+      },
+      "output": {
+        "nodeId": "Hk1lXfbdq",
+        "pinKey": "r1DL6CFU4"
+      }
+    },
+    {
+      "id": "ryWnOQGW_c",
+      "input": {
+        "nodeId": "By3OmMbu9",
+        "pinKey": "BJprUAedc"
+      },
+      "output": {
+        "nodeId": "rJe2O7G-_5",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BklYQMW_q",
+      "input": {
+        "nodeId": "By3OmMbu9",
+        "pinKey": "B11QT1qLN"
+      },
+      "output": {
+        "nodeId": "HJ_lQGZuc",
+        "pinKey": "r1DL6CFU4"
+      }
+    },
+    {
+      "id": "S1fYQfWu9",
+      "input": {
+        "nodeId": "H1mjAWGZ_q",
+        "pinKey": "SJDbf_YUV"
+      },
+      "output": {
+        "nodeId": "By3OmMbu9",
+        "pinKey": "r1DL6CFU4"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "r1H7MwK8E": "On Boot"
+      },
+      "id": "H1sCWGZuq",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "@/clear-display"
+    },
+    {
+      "id": "SJxj0-GZ_9",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "Bkw-6yqI4": "8",
+        "ByW_2k9IN": "03h",
+        "Hypl61qUE": "8",
+        "S1gH6CKIN": "\"XOD\""
+      },
+      "id": "Hy-j0bM-_q",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "@/draw-text"
+    },
+    {
+      "id": "HJMiCZGWdq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 8
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "H1mjAWGZ_q",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 8
+      },
+      "type": "@/send-buffer-to-display"
+    },
+    {
+      "id": "ByEj0WMWO5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "rkrjC-GZ_5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "BkIoA-zbOq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/i2c/i2c"
+    },
+    {
+      "id": "SJvoCWGZ_9",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "Hy_o0-M-u9",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/sh1107-oled-i2c-device"
+    },
+    {
+      "boundLiterals": {
+        "SkSuD6LMb": "On Boot",
+        "Skre8ROSv1-": "0.25"
+      },
+      "id": "SJFi0-GW_q",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "Bkw-6yqI4": "48",
+        "ByW_2k9IN": "03h",
+        "Hypl61qUE": "8",
+        "S1gH6CKIN": "\"SH1107\""
+      },
+      "id": "Hk1lXfbdq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 5
+      },
+      "type": "@/draw-text"
+    },
+    {
+      "id": "BJxyxXMWuq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "Bkw-6yqI4": "88",
+        "ByW_2k9IN": "02h",
+        "Hypl61qUE": "8",
+        "S1gH6CKIN": "\"I2C OLED\""
+      },
+      "id": "HJ_lQGZuc",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 6
+      },
+      "type": "@/draw-text"
+    },
+    {
+      "id": "rkg_x7MZu9",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 6
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "Bkw-6yqI4": "112",
+        "ByW_2k9IN": "02h",
+        "Hypl61qUE": "8",
+        "S1gH6CKIN": "\"128x128 px\""
+      },
+      "id": "By3OmMbu9",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 7
+      },
+      "type": "@/draw-text"
+    },
+    {
+      "id": "rJe2O7G-_5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 7
+      },
+      "type": "xod/patch-nodes/from-bus"
+    }
+  ]
+}

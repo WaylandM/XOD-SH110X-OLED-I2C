@@ -186,7 +186,7 @@
       "id": "BJKaJJD5L",
       "position": {
         "units": "slots",
-        "x": 12,
+        "x": 5,
         "y": 2
       },
       "type": "@/clear-display"
@@ -215,8 +215,8 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": 2
+        "x": 4,
+        "y": 1
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -351,7 +351,7 @@
     {
       "boundLiterals": {
         "SkSuD6LMb": "On Boot",
-        "Skre8ROSv1-": "0.3"
+        "Skre8ROSv1-": "0.25"
       },
       "id": "SJNwy1Jbdc",
       "position": {
