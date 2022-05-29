@@ -1,0 +1,78 @@
+{
+  "description": "Create SH1307 OLED device.",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "128"
+      },
+      "description": "Display  height in pixels (default 64).",
+      "id": "BJgxWIFUV",
+      "label": "HEIGHT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "-1"
+      },
+      "description": "Reset pin (using Arduino pin numbering), or -1 if not used  (some displays might be wired to share the microcontroller's reset pin).",
+      "id": "HyWOqSYLE",
+      "label": "RESET_PIN",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "SkfwO9_IN",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "128"
+      },
+      "description": "Display width in pixels (default 128).",
+      "id": "r1vM-UYL4",
+      "label": "WIDTH",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "ryH6tSt8N",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "description": "I²C bus",
+      "id": "BJgYgRldc",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
+    }
+  ]
+}

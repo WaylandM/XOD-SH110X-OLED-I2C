@@ -1,0 +1,138 @@
+{
+  "description": "Draw a triangle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
+  "nodes": [
+    {
+      "description": "TRUE to fill triangle with colour, FALSE to draw outline only.",
+      "id": "Bk2kHunU4",
+      "label": "FILL",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Pulses on completion.",
+      "id": "H1731r_2UE",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": -0.05,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Vertex #2 y coordinate",
+      "id": "H1gqfBu2IV",
+      "label": "Y2",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "HJL2JSOh8V",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HkN21HOnU4",
+      "position": {
+        "units": "slots",
+        "x": -0.05,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Vertex #2 x coordinate",
+      "id": "S15MBu38V",
+      "label": "X2",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = invert.",
+      "id": "S1DhJBO38V",
+      "label": "COLOUR",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Vertex #1 y coordinate",
+      "id": "r1dhJSdhUV",
+      "label": "Y1",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Vertex #0 x coordinate.",
+      "id": "r1rn1r_2LV",
+      "label": "X0",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Vertex #1 x coordinate",
+      "id": "rkG21ruhUE",
+      "label": "X1",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Vertex #0 y coordinate",
+      "id": "rye2yBdhUN",
+      "label": "Y0",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "rksPPLAguq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sh1107-oled-i2c-device"
+    }
+  ]
+}

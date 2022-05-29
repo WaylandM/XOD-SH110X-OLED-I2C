@@ -1,0 +1,116 @@
+{
+  "description": "Draw a rectangle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
+  "nodes": [
+    {
+      "id": "HJVKiR83IN",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Top left corner x coordinate.",
+      "id": "HJrYjCL28E",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Top left corner y coordinate.",
+      "id": "SJxFo082LN",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "r1IFsRIn8E",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "TRUE to fill rectangle with colour, FALSE to draw outline only.",
+      "id": "r1KoAU3LN",
+      "label": "FILL",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Height in pixels.",
+      "id": "r1nJkD28V",
+      "label": "H",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulses on completion.",
+      "id": "rJQtjAU3UE",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": -0.05,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Width in pixels.",
+      "id": "rkftoCL2UN",
+      "label": "W",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = invert.",
+      "id": "rkvYiAInI4",
+      "label": "COLOUR",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "rki2QLClO5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sh1107-oled-i2c-device"
+    }
+  ]
+}

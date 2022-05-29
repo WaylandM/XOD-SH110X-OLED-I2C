@@ -1,0 +1,47 @@
+{
+  "description": "Get dimensions of display in pixels.",
+  "nodes": [
+    {
+      "id": "HyTiJrhIV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Width of display in pixels.",
+      "id": "HyXeeBhL4",
+      "label": "WIDTH",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Height of display in pixels.",
+      "id": "HywWxHhU4",
+      "label": "HEIGHT",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "rJNuIRxOq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sh1107-oled-i2c-device"
+    }
+  ]
+}

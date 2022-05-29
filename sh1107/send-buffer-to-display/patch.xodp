@@ -1,0 +1,45 @@
+{
+  "description": "Push data currently in RAM to SSD1306 display. Drawing operations are not visible until this function is called. Call after each graphics command, or after a whole set of graphics commands, as best needed by one's own application.",
+  "nodes": [
+    {
+      "id": "BkPGzdFI4",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SJDbf_YUV",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Sk8I-_F8N",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An SH1107 OLED device.",
+      "id": "SJsZqL0xdq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sh1107-oled-i2c-device"
+    }
+  ]
+}
