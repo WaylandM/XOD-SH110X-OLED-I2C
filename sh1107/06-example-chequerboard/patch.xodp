@@ -2,17 +2,6 @@
   "description": "A chequerboard will be drawn on the display.",
   "links": [
     {
-      "id": "rJgg4jRlW_9",
-      "input": {
-        "nodeId": "Hk_4oClWOq",
-        "pinKey": "ryTIROHwkW"
-      },
-      "output": {
-        "nodeId": "BJINjRx-Oc",
-        "pinKey": "HyfYf0wFDY"
-      }
-    },
-    {
       "id": "SyiU6CgZ_c",
       "input": {
         "nodeId": "SJM8pCeWO5",
@@ -112,17 +101,6 @@
       }
     },
     {
-      "id": "ByWukWZd5",
-      "input": {
-        "nodeId": "B1-y1--O9",
-        "pinKey": "r1KoAU3LN"
-      },
-      "output": {
-        "nodeId": "Hk_4oClWOq",
-        "pinKey": "HkyxURuSPyW"
-      }
-    },
-    {
       "id": "r1cu1bZd5",
       "input": {
         "nodeId": "B1-y1--O9",
@@ -211,17 +189,6 @@
       }
     },
     {
-      "id": "Hymcys--u9",
-      "input": {
-        "nodeId": "H1-qJjbZu5",
-        "pinKey": "ryTIROHwkW"
-      },
-      "output": {
-        "nodeId": "r1l5yob-O5",
-        "pinKey": "HyfYf0wFDY"
-      }
-    },
-    {
       "id": "S1BqyjZZu9",
       "input": {
         "nodeId": "BJG91oW-uq",
@@ -288,28 +255,6 @@
       }
     },
     {
-      "id": "ry_So-bO9",
-      "input": {
-        "nodeId": "Sy7BsW-dc",
-        "pinKey": "ry3zLA_Bv1Z"
-      },
-      "output": {
-        "nodeId": "H1-qJjbZu5",
-        "pinKey": "HkyxURuSPyW"
-      }
-    },
-    {
-      "id": "HJtHj--Oc",
-      "input": {
-        "nodeId": "BJG91oW-uq",
-        "pinKey": "r1KoAU3LN"
-      },
-      "output": {
-        "nodeId": "Sy7BsW-dc",
-        "pinKey": "r1if8ROSDJ-"
-      }
-    },
-    {
       "id": "rJias-bdq",
       "input": {
         "nodeId": "r1l5yob-O5",
@@ -339,7 +284,7 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": 1
+        "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -349,14 +294,14 @@
       "position": {
         "units": "slots",
         "x": 16,
-        "y": 5
+        "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "boundLiterals": {
         "B1ttzAwtwt": "63",
-        "ByPYGRvFvK": "16",
+        "ByPYGRvFvK": "32",
         "HyrYzAPtPt": "0",
         "rk8tGRwKwK": "119",
         "rycFGCwFPt": "32"
@@ -368,15 +313,6 @@
         "y": 0
       },
       "type": "wayland/generate-grid/generate-grid"
-    },
-    {
-      "id": "Hk_4oClWOq",
-      "position": {
-        "units": "slots",
-        "x": 11,
-        "y": 1
-      },
-      "type": "xod/core/flip-flop"
     },
     {
       "id": "B1L6Cl-O9",
@@ -482,6 +418,7 @@
     },
     {
       "boundLiterals": {
+        "r1KoAU3LN": "True",
         "r1nJkD28V": "16",
         "rkftoCL2UN": "16"
       },
@@ -489,7 +426,7 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": 2
+        "y": 1
       },
       "type": "@/draw-rectangle"
     },
@@ -498,7 +435,7 @@
       "position": {
         "units": "slots",
         "x": 16,
-        "y": 6
+        "y": 3
       },
       "type": "@/send-buffer-to-display"
     },
@@ -508,15 +445,15 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": 5
+        "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "boundLiterals": {
         "B1ttzAwtwt": "63",
-        "ByPYGRvFvK": "16",
-        "HyrYzAPtPt": "0",
+        "ByPYGRvFvK": "32",
+        "HyrYzAPtPt": "16",
         "r1dFGAvKwF": "16",
         "rk8tGRwKwK": "119",
         "rycFGCwFPt": "32"
@@ -525,21 +462,13 @@
       "position": {
         "units": "slots",
         "x": 9,
-        "y": 3
+        "y": 2
       },
       "type": "wayland/generate-grid/generate-grid"
     },
     {
-      "id": "H1-qJjbZu5",
-      "position": {
-        "units": "slots",
-        "x": 11,
-        "y": 4
-      },
-      "type": "xod/core/flip-flop"
-    },
-    {
       "boundLiterals": {
+        "r1KoAU3LN": "True",
         "r1nJkD28V": "16",
         "rkftoCL2UN": "16"
       },
@@ -547,18 +476,9 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": 6
+        "y": 3
       },
       "type": "@/draw-rectangle"
-    },
-    {
-      "id": "Sy7BsW-dc",
-      "position": {
-        "units": "slots",
-        "x": 12,
-        "y": 5
-      },
-      "type": "xod/core/not"
     }
   ]
 }

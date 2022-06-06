@@ -2,5 +2,5 @@
   "description": "Arduino library for OLED displays driven by the SH1107 chip. Communication via I2C. Wraps Adafruit_SH130x (https://github.com/adafruit/Adafruit_SH110x). Tested using a Pimoroni Mono OLED Breakout (1.12\" 128x128 pixels) and ESP32. ",
   "license": "BSD",
   "name": "sh1107-oled-i2c",
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
